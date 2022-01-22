@@ -2,28 +2,48 @@ body {
     font-family: Georgia, serif;
 }
 
-h1, h2, h3 {
+#title{
+    color:black;
+   
+}
+
+h3 {
     font-family: Georgia;
+    color: white
 }
 
 h2 {
-    color: white;
+    color: black;
+}
+
+#notes {
+    color: black
 }
 
 header h2 {
-    color:white;
+    color:black;
 }
 
-footer {
-    background: black;
-    padding: 20px 0;
-}
 
+.footer-dark {
+    padding:30px 0;
+    color:#f0f9ff;
+    background-color:black;
+    font-size:16px;
+  }
+  
+  .footer-dark h3 {
+    margin-top:0;
+    margin-bottom:16px;
+    font-weight:bold;
+    font-size:16px;
+  }
+  
 .jumbotron {
-    padding: 30px;
+    padding: 150px;
     margin: 0;
     color: white;
-    background: Black
+    background-image: url('../images/header.jpg');
 }
 
 .navbar {

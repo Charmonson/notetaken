@@ -1,7 +1,7 @@
 showNotes();
   
-// If user adds a note, add it to the localStorage
-let addBtn = document.getElementById("addBtn");
+// Adds Note to local storage
+let add = document.getElementById("addBtn");
 addBtn.addEventListener("click", function(e) {
     let addTxt = document.getElementById("addTxt");
     let notes = localStorage.getItem("notes");
@@ -15,8 +15,7 @@ addBtn.addEventListener("click", function(e) {
   
     showNotes();
 });
-  
-// Function to show elements from localStorage
+//Shows elements in local storage
 function showNotes() {
     let notes = localStorage.getItem("notes");
   
@@ -49,8 +48,8 @@ function showNotes() {
   
     if (notesObj.length != 0) notesElm.innerHTML = html;
     else
-        notesElm.innerHTML = `Nothing to show! 
-        Use "Add a Note" section above to add notes.`;
+        notesElm.innerHTML = `Use "Add Note" section above & 
+        catch those fleeting thoughts!`;
 }
   
 // Function to delete a note
