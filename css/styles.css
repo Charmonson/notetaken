@@ -1,0 +1,42 @@
+body {
+    font-family: Georgia, serif;
+}
+
+h1, h2, h3 {
+    font-family: Georgia;
+}
+
+h2 {
+    color: white;
+}
+
+header h2 {
+    color:white;
+}
+
+footer {
+    background: black;
+    padding: 20px 0;
+}
+
+.jumbotron {
+    padding: 30px;
+    margin: 0;
+    color: white;
+    background: Black
+}
+
+.navbar {
+    background-color: #bb9017
+}
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+.btn btn-link {
+    color: white;
+}
+.btn-primary {
+    background-color:black
+}
